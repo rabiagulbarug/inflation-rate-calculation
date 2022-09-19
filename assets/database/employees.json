@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Sueda",
+    "surname": "Allefbaşı",
+    "mail": "su@gmail.com",
+    "department": "yazılım"
+  },
+  {
+    "id": 1,
+    "name": "Ahmet",
+    "surname": "Türk",
+    "mail": "su@gmail.com",
+    "department": "yazılım"
+  }
+]
