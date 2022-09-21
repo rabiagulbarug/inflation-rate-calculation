@@ -9,7 +9,7 @@ export default function Home() {
 
     useEffect(() => {
         if (!user) {
-            router.push('/auth');
+            router.push('/login');
         }
     }, [user]);
 

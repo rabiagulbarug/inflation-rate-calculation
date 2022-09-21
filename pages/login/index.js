@@ -4,10 +4,6 @@ import {useRouter} from "next/router";
 
 
 const Login = () => {
-    const {login, user} = useAuth();
-
-    const router = useRouter();
-
     const [values, setValue] = useReducer((state, action) => {
         switch (action.type) {
             case 'mail':
@@ -19,9 +15,12 @@ const Login = () => {
         }
     },{mail: 'rabiabrg7@gmail.com', password: 'rabia123'});
 
+    const {login, user} = useAuth();
+    const router = useRouter();
+
     useEffect(() => {
         if (user) {
-            router.push('/');
+            router.push('/calculation');
         }
     }, [user, router]);
 
