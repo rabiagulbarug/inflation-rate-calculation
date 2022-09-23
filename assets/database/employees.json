@@ -4,6 +4,7 @@
     "name": "Sueda",
     "surname": "Allefbaşı",
     "mail": "su@gmail.com",
+    "salary": 5000,
     "department": "yazılım"
   },
   {
@@ -11,6 +12,7 @@
     "name": "Ahmet",
     "surname": "Türk",
     "mail": "su@gmail.com",
+    "salary": 10000,
     "department": "yazılım"
   }
 ]

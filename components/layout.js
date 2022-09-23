@@ -4,12 +4,12 @@ const Layout = ({children}) => {
     const router = useRouter();
 
     return (
-        <>
-            <div className="content-wrapper py-2 px-2">
+        <div>
+            <div className="content-wrapper">
                 {router.route === '/' ? children
                     : children}
             </div>
-        </>
+        </div>
     );
 }
 

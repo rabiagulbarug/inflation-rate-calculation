@@ -1,0 +1,44 @@
+.company-card{
+    width: 900px!important;
+}
+
+.date-picker{
+    position: relative;
+    text-align: left;
+}
+
+.table, th, td {
+    border: 1px solid #E7F9FF;
+}
+
+.card input{
+    width: 350px;
+    margin-bottom: 5px;
+    border: 1px solid #E7F9FF;
+}
+
+.card input:active{
+    border: 1px solid #E7F9FF;
+
+}
+
+.employee-add{
+    height: 100px;
+    border: 0;
+}
+
+.card-header{
+    border-bottom: 0;
+}
+
+.form-control{
+    border: 0;
+    color: #007bff;
+}
+
+.card{
+    box-shadow: none;
+    color: #007bff;
+    font-weight: bold;
+}
+

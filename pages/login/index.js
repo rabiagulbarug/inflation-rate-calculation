@@ -32,7 +32,6 @@ const Login = () => {
     }, [values]);
 
     return (
-        <div className="main">
             <div className="col-12">
                 <div className="row">
                     <div className="card">
@@ -53,7 +52,6 @@ const Login = () => {
                     </div>
                 </div>
             </div>
-        </div>
     );
 }
 
